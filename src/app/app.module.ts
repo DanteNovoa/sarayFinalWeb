@@ -10,15 +10,17 @@ import { BiografiaComponent } from './componentes/biografia/biografia.component'
 import { GaleriaComponent } from './componentes/galeria/galeria.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { VideoGaleriaComponent } from './componentes/video-galeria/video-galeria.component';
+import { ContactoComponent } from "./shared/contacto/contacto.component";
 
 @NgModule({
   declarations: [
     AppComponent,
+    ContactoComponent,
     HomeComponent,
     BiografiaComponent,
     GaleriaComponent,
     NavbarComponent,
-    VideoGaleriaComponent
+    VideoGaleriaComponent,
   ],
   imports: [
     BrowserModule,
